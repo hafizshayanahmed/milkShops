@@ -1,0 +1,30 @@
+@media screen and (min-width: 1022px) {
+.navDiv {
+    width: 200px;
+    min-width: 150px;
+    margin: 25px 0px 0px 20px;
+    float: left;
+    text-align: center;
+}
+.formDiv {
+    width: 60%;
+    min-width: 500;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin: 25px auto;
+    }
+}
+
+@media screen and (max-width: 1021px) {
+    .navDiv {
+        width: 200px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .formDiv {
+        width: 90%;
+        border: 1px solid lightgrey;
+        padding: 20px;
+        margin: 25px auto;     
+    }
+  }

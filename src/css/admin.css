@@ -1,0 +1,17 @@
+.loginDiv {
+    margin: 60px auto;
+    width: 440px;
+    height: 365px;
+    background-color: white;
+    padding: 50px;
+}
+
+@media screen and (max-width: 1021px) {
+    .loginDiv {
+        margin: 60px auto;
+        width: 90%;
+        height: 365px;
+        background-color: white;
+        padding: 50px;
+    }
+  }

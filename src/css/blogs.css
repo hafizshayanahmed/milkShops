@@ -1,0 +1,21 @@
+.blogDiv {
+    width: 80%;
+    margin: 0px auto;
+    height: 65vh
+}
+.imageDiv {
+    width: 450px;
+    height: 300px;
+}
+
+@media screen and (max-width: 1021px) {
+    .blogDiv {
+        width: 90%;
+        margin: 0px auto;
+        height: 100vh
+    }
+    .imageDiv {
+        width: 90%;
+        height: 250px;
+    }
+  }

@@ -1,0 +1,81 @@
+@media screen and (min-width: 1022px) {
+    .navDiv {
+        width: 200px;
+        min-width: 150px;
+        margin: 25px 0px 0px 20px;
+        float: left;
+        text-align: center;
+    }
+    .formDiv {
+        width: 60%;
+        min-width: 500;
+        border: 1px solid lightgrey;
+        padding: 20px;
+        margin: 25px auto;
+        }
+    .sNo {
+        width: 20px;
+        display: inline-block;
+    }
+    .title {
+        font-weight: bold;
+            font-size: 12px;
+            margin-top: 4px;
+    }
+    .content {
+        font-size: 12px;
+            margin-top: 4px;
+            margin-left: 10px;
+    }
+    .option {
+        width: 50px;
+            display: inline-block;
+            text-align: right;
+            cursor: pointer;
+    }
+    .blogPicOption {
+        width: 160px;
+            display: inline-block;
+            text-align: right;
+            cursor: pointer;
+    }
+    }
+    
+    @media screen and (max-width: 1021px) {
+        .navDiv {
+            width: 200px;
+            margin: 30px auto;
+            text-align: center;
+        }
+        .formDiv {
+            width: 90%;
+            border: 1px solid lightgrey;
+            padding: 20px;
+            margin: 25px auto;     
+        }
+        .sNo {
+            width: 20px;
+            display: block;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            margin-top: 4px;
+            display: block;
+        }
+        .content {
+            font-size: 12px;
+                margin-top: 4px;
+                display: block;
+        }
+        .option {
+            width: 50px;
+                cursor: pointer;
+                display: block;
+        }
+        .blogPicOption {
+            width: 160px;
+                cursor: pointer;
+                display: block;
+        }
+      }

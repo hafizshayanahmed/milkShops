@@ -1,0 +1,56 @@
+@media screen and (min-width: 1020px) {
+  .listDiv {
+    width: 30%;
+    border: "1px solid lightgrey";
+    overflow: hidden;
+    height: 88vh;
+    min-width: 350;
+    float: left;
+    background-color: white;
+  }
+  
+  .detailedDiv {
+        width: 70%;
+        float: left;
+        overflow: auto;
+        min-width: 850;
+        border: "1px solid lightgrey";
+        height: 88vh;
+        border-left: none;
+        background-color: white;
+    }
+    .mainDiv {
+      width: 100%;
+      min-width: 1290;
+      background-color: rgba(242, 242, 242, 1);
+      height: 100vh
+    }
+}
+
+@media screen and (max-width: 1021px) {
+  .listDiv {
+    width: 100%;
+    border: "1px solid lightgrey";
+    overflow: hidden;
+    float: none;
+    background-color: white;
+  }
+  
+  .detailedDiv {
+        width: 100%;
+        min-width: 800px;
+        float: none;
+        overflow: auto;
+        border: "1px solid lightgrey";
+        border-left: none;
+        background-color: white;
+    }
+    .mainDiv {
+      width: 100%;
+      background-color: rgba(242, 242, 242, 1);
+    }
+}
+
+table, thead, tr, th {
+  border: 1px solid lightgrey
+}

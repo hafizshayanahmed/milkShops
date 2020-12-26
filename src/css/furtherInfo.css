@@ -1,0 +1,23 @@
+
+
+                    .furtherInfo {
+                        width: 60%;
+                    margin: 20px auto;
+                    border: 1px solid lightgrey;
+                    border-radius: 5px;
+                    box-shadow: 5px 5px 5px -5px gray;
+                    background-color: rgba(242, 242, 242, 0.3);
+                    padding: 20px;
+                    }
+                    
+                    @media screen and (max-width: 1021px) {
+                        .furtherInfo {
+                            width: 90%;
+                    margin: 20px auto;
+                    border: 1px solid lightgrey;
+                    border-radius: 5px;
+                    box-shadow: 5px 5px 5px -5px gray;
+                    background-color: rgba(242, 242, 242, 0.3);
+                    padding: 20px;
+                        }
+                      }

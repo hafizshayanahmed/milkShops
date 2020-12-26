@@ -1,0 +1,53 @@
+@media screen and (min-width: 1022px) {
+    
+
+    .style {
+        width: 64%;
+        margin: 25px auto;
+        display: inline-block;
+    }
+    .style1 {
+        width: 15%;
+        margin: 25px 1.5% 0px 1.5%;
+        float: left;
+        text-align: center
+    }
+    .style2 {
+        width: 15%;
+        float: right;
+        text-align: center;
+        overflow-y: auto;
+        margin: 25px 1.5% 0px 1.5%;
+    }
+    .style3 {
+        width: 50%;
+        margin: 0 auto;
+        border: 1px solid lightgrey;
+        padding: 20px;
+    }
+    }
+    
+    @media screen and (max-width: 1021px) {
+        .style {
+            width: 100%;
+            margin: 25px auto;
+            display: inline-block;
+        }
+        .style1 {
+            width: 60%;
+            margin: 25px auto;
+            text-align: center
+        }
+        .style2 {
+            width: 80%;
+            text-align: center;
+            overflow-y: auto;
+            margin: 25px auto;
+        }
+        .style3 {
+            width: 90%;
+            margin: 0 auto;
+            border: 1px solid lightgrey;
+            padding: 20px;
+        }   
+      }
